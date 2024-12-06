@@ -1,0 +1,15 @@
+#container{
+    border: solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.containerDivs{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 25%;
+    height: 25%;
+}
