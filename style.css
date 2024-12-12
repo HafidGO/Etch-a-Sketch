@@ -2,14 +2,59 @@
     border: solid black;
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
-    height: 500px;
+    width: 800px;
+    height: 800px;
     margin: auto;
+    flex-wrap: wrap;
+    margin-top: 2%;
 }
 
-.containerDivs{
+.boxesDivs{
     border: 1px solid black;
     box-sizing: border-box;
-    width: 25%;
-    height: 25%;
+    height: 240px;
+    width:  240px;
+    opacity: .1;
+}
+
+
+#buttonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.button-13 {
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 19.5%;
+  height: 75px;
+  margin: 1%;
+  font-size: 25px;
+}
+
+.button-13:hover {
+  background-color: #f7fafa;
+}
+
+.button-13:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
 }
